@@ -26,4 +26,6 @@ steps:
   - '--platform'
   - 'managed'
   - '--allow-unauthenticated'
+  - --ingress
+  - internal-and-cloud-load-balancing
 # [END cloudbuild_quickstart_deploy]
